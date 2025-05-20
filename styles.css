@@ -32,6 +32,10 @@
     border-radius:45px;
 }
 #result{
+    /* overflow-x: auto; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     transform:translateY(1px);
     display:flex;
     justify-content: center;
@@ -43,6 +47,7 @@
     border:2px solid rgb(248, 238, 238);
     border-radius: 20px;
     font-size: 30px;
+    align-content: center;
 }
 .but:hover {
     background-color: #a3bff2;
